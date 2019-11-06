@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GamingWidget</class>
+ <widget class="QWidget" name="GamingWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>762</width>
+    <height>456</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="lbTip">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>200</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>提示</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lbTime">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>200</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>时间</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="MyLabel" name="lbShow">
+         <property name="minimumSize">
+          <size>
+           <width>530</width>
+           <height>350</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>画板</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QPushButton" name="btnColor">
+             <property name="minimumSize">
+              <size>
+               <width>41</width>
+               <height>41</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>41</width>
+               <height>41</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>颜色</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="lbColor">
+             <property name="minimumSize">
+              <size>
+               <width>41</width>
+               <height>41</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>41</width>
+               <height>41</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <item>
+            <widget class="QLabel" name="lbSize">
+             <property name="text">
+              <string>        画笔粗细</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <item>
+              <widget class="QRadioButton" name="rbtnThin">
+               <property name="text">
+                <string>细</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="rbtnMiddle">
+               <property name="text">
+                <string>中</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="rbtnHeavy">
+               <property name="text">
+                <string>粗</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnPen">
+           <property name="minimumSize">
+            <size>
+             <width>41</width>
+             <height>41</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>41</width>
+             <height>41</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>画笔</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnRubber">
+           <property name="minimumSize">
+            <size>
+             <width>41</width>
+             <height>41</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>41</width>
+             <height>41</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>橡皮</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnClear">
+           <property name="minimumSize">
+            <size>
+             <width>41</width>
+             <height>41</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>41</width>
+             <height>41</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>清屏</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QLabel" name="lbGame1">
+             <property name="text">
+              <string>玩家1  积分  画手</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="lbGame2">
+             <property name="text">
+              <string>玩家2</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="lbGame3">
+             <property name="text">
+              <string>玩家3</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="lbGame4">
+             <property name="text">
+              <string>玩家4</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="lbGame5">
+             <property name="text">
+              <string>玩家5</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="lbGame6">
+             <property name="text">
+              <string>玩家6</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QScrollBar" name="verticalScrollBar">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>250</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>270</height>
+            </size>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QTextBrowser" name="tbShow">
+           <property name="minimumSize">
+            <size>
+             <width>200</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>200</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="leInput">
+           <property name="minimumSize">
+            <size>
+             <width>200</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>200</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyLabel</class>
+   <extends>QLabel</extends>
+   <header>painter/mylabel.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
