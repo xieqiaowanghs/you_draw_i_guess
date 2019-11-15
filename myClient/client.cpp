@@ -9,7 +9,7 @@ Client::Client(QObject *parent)
     : QObject(parent)
 {
     QTcpSocket* socket = SingleTon<QTcpSocket>::getInstance();
-    socket->connectToHost(QHostAddress("192.168.1.227"), 7000);
+    socket->connectToHost(QHostAddress("127.0.0.1"), 7000);
 
     QObject::connect(socket, &QTcpSocket::readyRead, [=](){
         QByteArray array = socket->readAll();
