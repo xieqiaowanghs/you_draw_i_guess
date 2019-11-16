@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>questions.txt</file>
+        <file>loading.gif</file>
+    </qresource>
+</RCC>
